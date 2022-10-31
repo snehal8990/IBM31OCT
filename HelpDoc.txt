@@ -1,0 +1,41 @@
+
+https://git-scm.com/
+
+https://github.com/
+
+
+Below link for Git Cheat
+https://education.github.com/git-cheat-sheet-education.pdf
+
+
+First time we need to do this : 
+git config --global user.name snehal8990   // “[firstname lastname]”
+
+git config --global user.email snehalmhatre0523@gmail.com
+
+
+Git init
+
+If we want to add all file we used * or else we can used file name 
+git add *
+
+git status
+
+git commit -m "FirstBatchCommitBySnehal"
+
+git remote add origin https://github.com/snehal8990/IBM31OCT.git
+
+git push -u origin master
+
+
+If you have any fatal error as then used below command 
+git config --global color.ui false
+
+git config --global user.name 
+git config --global user.email “[email]”
+git init
+git add *
+git status
+git commit -m "firstBatchCommit"
+git remote add origin https://github.com/qawork-coder/IBM_31Oct2022.git
+git push -u origin master
